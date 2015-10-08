@@ -40,8 +40,7 @@ function roomify_faceted_search_default_rooms_unit_type() {
       "max_children" : "1",
       "rooms_description_source" : ""
     },
-    "rooms_booking_unit_options" : [],
-    "rdf_mapping" : []
+    "rooms_booking_unit_options" : []
   }');
   return $items;
 }
@@ -136,8 +135,7 @@ function roomify_faceted_search_default_search_api_index() {
       }
     },
     "enabled" : "1",
-    "read_only" : "0",
-    "rdf_mapping" : []
+    "read_only" : "0"
   }');
   return $items;
 }
@@ -435,8 +433,7 @@ function roomify_faceted_search_default_search_api_server() {
         }
       }
     },
-    "enabled" : "1",
-    "rdf_mapping" : []
+    "enabled" : "1"
   }');
   return $items;
 }

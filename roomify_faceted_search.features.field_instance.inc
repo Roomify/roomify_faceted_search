@@ -45,7 +45,7 @@ function roomify_faceted_search_field_default_field_instances() {
   // 'rooms_unit-unit_with_attributes-rooms_booking_unit_options'
   $field_instances['rooms_unit-unit_with_attributes-rooms_booking_unit_options'] = array(
     'bundle' => 'unit_with_attributes',
-    'default_value' => NULL,
+    'default_value' => array(),
     'deleted' => 0,
     'description' => '',
     'display' => array(

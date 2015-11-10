@@ -308,125 +308,125 @@ function roomify_faceted_search_default_search_api_server() {
         "units" : {
           "unit_id" : {
             "table" : "search_api_db_units",
-            "column" : "unit_id_1",
+            "column" : "unit_id",
             "type" : "integer",
             "boost" : "1.0"
           },
           "type" : {
             "table" : "search_api_db_units",
-            "column" : "type_1",
+            "column" : "type",
             "type" : "string",
             "boost" : "1.0"
           },
           "language" : {
-            "table" : "search_api_db_units_text_1",
+            "table" : "search_api_db_units_text",
             "type" : "text",
             "boost" : "1.0"
           },
           "base_price" : {
             "table" : "search_api_db_units",
-            "column" : "base_price_1",
+            "column" : "base_price",
             "type" : "decimal",
             "boost" : "1.0"
           },
           "min_sleeps" : {
             "table" : "search_api_db_units",
-            "column" : "min_sleeps_1",
+            "column" : "min_sleeps",
             "type" : "integer",
             "boost" : "1.0"
           },
           "max_sleeps" : {
             "table" : "search_api_db_units",
-            "column" : "max_sleeps_1",
+            "column" : "max_sleeps",
             "type" : "integer",
             "boost" : "1.0"
           },
           "status" : {
             "table" : "search_api_db_units",
-            "column" : "status_1",
+            "column" : "status",
             "type" : "integer",
             "boost" : "1.0"
           },
           "uid" : {
             "table" : "search_api_db_units",
-            "column" : "uid_1",
+            "column" : "uid",
             "type" : "integer",
             "boost" : "1.0"
           },
           "url" : {
             "table" : "search_api_db_units",
-            "column" : "url_1",
+            "column" : "url",
             "type" : "uri",
             "boost" : "1.0"
           },
           "field_amenities" : {
-            "table" : "search_api_db_units_field_amenities_1",
+            "table" : "search_api_db_units_field_amenities",
             "column" : "value",
             "type" : "list\\u003Cinteger\\u003E",
             "boost" : "1.0"
           },
           "field_area" : {
-            "table" : "search_api_db_units_field_area_1",
+            "table" : "search_api_db_units_field_area",
             "column" : "value",
             "type" : "list\\u003Cinteger\\u003E",
             "boost" : "1.0"
           },
           "field_property_bathrooms" : {
             "table" : "search_api_db_units",
-            "column" : "field_property_bathrooms_1",
+            "column" : "field_property_bathrooms",
             "type" : "integer",
             "boost" : "1.0"
           },
           "field_property_bedrooms" : {
             "table" : "search_api_db_units",
-            "column" : "field_property_bedrooms_1",
+            "column" : "field_property_bedrooms",
             "type" : "integer",
             "boost" : "1.0"
           },
           "field_property_double_bed" : {
             "table" : "search_api_db_units",
-            "column" : "field_property_double_bed_1",
+            "column" : "field_property_double_bed",
             "type" : "integer",
             "boost" : "1.0"
           },
           "field_property_max_capacity" : {
             "table" : "search_api_db_units",
-            "column" : "field_property_max_capacity_1",
+            "column" : "field_property_max_capacity",
             "type" : "integer",
             "boost" : "1.0"
           },
           "field_property_single_bed" : {
             "table" : "search_api_db_units",
-            "column" : "field_property_single_bed_1",
+            "column" : "field_property_single_bed",
             "type" : "integer",
             "boost" : "1.0"
           },
           "field_property_type" : {
             "table" : "search_api_db_units",
-            "column" : "field_property_type_1",
+            "column" : "field_property_type",
             "type" : "integer",
             "boost" : "1.0"
           },
           "search_api_language" : {
             "table" : "search_api_db_units",
-            "column" : "search_api_language_1",
+            "column" : "search_api_language",
             "type" : "string",
             "boost" : "1.0"
           },
           "field_location:geom" : {
-            "table" : "search_api_db_units_text_1",
+            "table" : "search_api_db_units_text",
             "type" : "text",
             "boost" : "1.0"
           },
           "field_location:latlon" : {
             "table" : "search_api_db_units",
-            "column" : "field_location_latlon_1",
+            "column" : "field_location_latlon",
             "type" : "string",
             "boost" : "1.0"
           },
           "field_property_image:file" : {
             "table" : "search_api_db_units",
-            "column" : "field_property_image_file_1",
+            "column" : "field_property_image_file",
             "type" : "integer",
             "boost" : "1.0"
           }
